@@ -4,7 +4,9 @@
   "description": "A client and server that takes pictures on the raspberry pi camera module and uploads them via web sockets to a server.",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "client": "node lib/client.js",
+    "server": "node lib/server.js"
   },
   "keywords": [
     "raspberrypi",
